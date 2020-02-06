@@ -8,6 +8,14 @@ If you find joy in the simple things like using a tool that you created, learnin
 ### Table of Contents
 **[Command Line Shortcuts](#command-line-shortcuts)**<br>
 **[Helpful Commands](#helpful-commands)**<br>
+**[Shell Essentials](#shell-essentials)**<br>
+**[Personal Organization Tips](#personal-organization-tips)**<br>
+**[Bash Scripts](#bash-scripts)**<br>
+**[Python Scripts](#python-scripts)**<br>
+**[Picked Projects](#picked-projects)**<br>
+**[MacOS Fun](#macos-fun)**<br>
+**[VisualStudio](#visualstudio)**<br>
+**[Firefox Extensions](#firefox-extensions)**<br>
 
 ## Command Line Shortcuts
 ###### _This is obviously not a comprehensive keyboard shortcut doc. This section is meant to highlight my favorite shortcuts & shortcut combinations that I use everyday and think aren't obviously beneficial after a quick glance at some documentation._
@@ -26,3 +34,33 @@ If you find joy in the simple things like using a tool that you created, learnin
 | `ls -ltr`  | View folders & files sorted by modification time where the bottom-most file/folder was modified most recently   |_Great for sorting through directories with a lot of log files & for finding newly downloaded files/folders_|
 | `cd -` | `cd` with the `-` argument brings you to the last directory that you visited before the current working directory. | _This is very helpful when hopping back and forth between two different directories_|
 ||||
+
+## Shell Essentials
+###### _To preface this section, I don't use the default shell that ships with MacOS/Linux and opt for the <b>zsh</b> shell along with [Oh-My-Zsh](https://github.com/robbyrussell/oh-my-zsh.git) which is a framework that helps you manage zsh configurations (note: oh-my-zsh also lets you utilize several awesome plugins)._
+
+<b>Important:</b> ZSH and Oh-My-Zsh are prequisites for a lot of tips in this repository. Follow the instructions [here](https://github.com/robbyrussell/oh-my-zsh.git) if you want to live a better life with a better shell. 
+#### Make Visual Studio your default text editor
+_This is great for many reasons._
+1. Make sure the VisualStudio command `code` (which launches VisualStudio from the terminal) is in your path. This can be done by adding the following text to your _<b>.zshrc</b>_ file. (Remember to open a new terminal window after saving this file)
+  * `export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"`
+2. Change your default text editor by adding the following to your _<b>.zshrc</b>_ file.
+  * `export EDITOR="code -w"`
+3. Open a new terminal window (in order for the changes to take effect) and try the keyboard shortcut <kbd>^</kbd><kbd>X</kbd> + <kbd>^</kbd><kbd>E</kbd> which should now open a temporary file in VisualStudio instead of vim or nano.
+
+## Personal Organization Tips
+
+## Bash Scripts
+
+## Python Scripts
+
+## Picked Projects
+
+## MacOS Fun
+#### Guides
+#### Products
+- [Magnet](https://apps.apple.com/us/app/magnet/id441258766?mt=12): _Efficiently control how much space each application takes on your monitor. Amazing for multitasking. ($1.99)_
+#### Free Tools
+## VisualStudio
+
+
+## Firefox Extensions
